@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block 'content' %}
+
+<!-- single -->
+<div class="single-page-agile-main">
+<div class="container">
+		<!-- /w3l-medile-movies-grids -->
+			<div class="agileits-single-top">
+				<ol class="breadcrumb">
+				  
+				  <li class="active">{{item.tagline}}</li>
+				</ol>
+			</div>
+			<div class="single-page-agile-info">
+                   <!-- /movie-browse-agile -->
+                           <div class="show-top-grids-w3lagile">
+				<div class="col-sm-8 single-left">
+					<div class="song">
+						<div class="song-info">
+							<h3>{{item.titre}}</h3></br>
+					    </div>
+						
+						<div class="video-grid-single-page-agileits">
+
+								<!-- bon faire attention au js selector au moment de reactiver
+								<video preload="none" controls crossorigin playsinline poster="{{item.thumbnail.url}}"></video>
+								-->
+
+								<!-- FlowPlayer
+								<div class="flowplayer">
+									<video preload="none" poster="{{item.thumbnail.url}}">
+										<source type="application/x-mpegurl" src="/media/movies/{{item.video}}/{{item.video}}.m3u8"  >
+										Your browser does not support HTML5 video.
+									</video>
+								</div>
+								-->
+
+								<!-- Lecteur nginx hls
+								<video width="800" preload="none" poster="{{item.thumbnail.url}}" controls>
+									<source src="/media/movies/{{item.video}}/{{item.video}}.m3u8" type="application/x-mpegurl" >
+									Your browser does not support HTML5 video.
+								</video>
+								-->
+								
+								<!-- Lecteur Simple -->
+								<video width="800" preload="none" poster="{{item.thumbnail.url}}" controls>
+									<source src="/media/movies/{{item.video}}/{{item.video}}.mp4" type="video/mp4" >
+									Your browser does not support HTML5 video.
+								</video>
+								
+						</div>
+					</div>
+					<div class="song-grid-right">
+						<div class="share">
+							<h5>Casting :</h5> {{item.casting}}
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+
+					<div class="all-comments">
+						<div class="all-comments-info">
+							<a href="#">
+                                Note: {{item.note}} , Annee : {{item.annee}}, Genre : {{item.genres}} </br>
+                                {{item.resume}}
+                            </a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 single-right">
+					<h3>Numeros FINEXS</h3>
+					<div class="single-grid-right">
+						<div class="single-right-grids">
+							
+							<div class="col-md-8 single-right-grid-right">
+								
+								<a href="#" class="title"> Resa Yde  :  699998636</a></br>
+                                <a href="#" class="title"> Resa Dla  :  691819290</a></br>
+                                <a href="#" class="title"> Colis Yde :  699755276</a></br>
+                                <a href="#" class="title"> Colis Dla :  656968928</a></br>
+                                <a href="#" class="title"> Plaintes  :  656968928</a></br>
+                                <a href="#" class="title"> #FINEXSVOYAGES</a></br>
+                                <a href="#" class="title"> #LeConfort</a></br>
+                                <a href="#" class="title"> #LaCultureMatinale</a></br>	
+							
+							
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+				<!-- //movie-browse-agile -->
+				<!--body wrapper start--> <!--body wrapper end-->
+						
+							 
+				</div>
+				<!-- //w3l-latest-movies-grids -->
+			</div>	
+		</div>
+	<!-- //w3l-medile-movies-grids -->
+
+{% endblock %}
+
+{% block foot-javascript %}
+
+{% endblock %}

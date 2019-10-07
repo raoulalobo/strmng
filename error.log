@@ -1,0 +1,74 @@
+[2019-09-04 10:33:18 +0100] [11710] [INFO] Starting gunicorn 19.9.0
+[2019-09-04 10:33:18 +0100] [11710] [INFO] Listening at: unix:/tmp/gunicorn.sock (11710)
+[2019-09-04 10:33:18 +0100] [11710] [INFO] Using worker: sync
+[2019-09-04 10:33:18 +0100] [11713] [INFO] Booting worker with pid: 11713
+[2019-09-04 10:33:18 +0100] [11715] [INFO] Booting worker with pid: 11715
+[2019-09-04 10:33:18 +0100] [11717] [INFO] Booting worker with pid: 11717
+[2019-09-04 10:33:18 +0100] [11719] [INFO] Booting worker with pid: 11719
+[2019-09-04 10:33:19 +0100] [11724] [INFO] Booting worker with pid: 11724
+[2019-09-04 10:33:19 +0100] [11727] [INFO] Booting worker with pid: 11727
+[2019-09-04 10:33:19 +0100] [11729] [INFO] Booting worker with pid: 11729
+[2019-09-04 10:33:19 +0100] [11733] [INFO] Booting worker with pid: 11733
+[2019-09-04 10:33:19 +0100] [11735] [INFO] Booting worker with pid: 11735
+[2019-09-04 10:39:03 +0100] [12387] [INFO] Starting gunicorn 19.9.0
+[2019-09-04 10:39:03 +0100] [12387] [INFO] Listening at: unix:/tmp/gunicorn.sock (12387)
+[2019-09-04 10:39:03 +0100] [12387] [INFO] Using worker: sync
+[2019-09-04 10:39:03 +0100] [12390] [INFO] Booting worker with pid: 12390
+[2019-09-04 10:39:03 +0100] [12392] [INFO] Booting worker with pid: 12392
+[2019-09-04 10:39:03 +0100] [12396] [INFO] Booting worker with pid: 12396
+[2019-09-04 10:39:03 +0100] [12399] [INFO] Booting worker with pid: 12399
+[2019-09-04 10:39:03 +0100] [12401] [INFO] Booting worker with pid: 12401
+[2019-09-04 10:39:03 +0100] [12403] [INFO] Booting worker with pid: 12403
+[2019-09-04 10:39:03 +0100] [12406] [INFO] Booting worker with pid: 12406
+[2019-09-04 10:39:03 +0100] [12410] [INFO] Booting worker with pid: 12410
+[2019-09-04 10:39:03 +0100] [12412] [INFO] Booting worker with pid: 12412
+[2019-09-04 10:41:01 +0100] [12677] [INFO] Starting gunicorn 19.9.0
+[2019-09-04 10:41:01 +0100] [12677] [INFO] Listening at: unix:/tmp/gunicorn.sock (12677)
+[2019-09-04 10:41:01 +0100] [12677] [INFO] Using worker: sync
+[2019-09-04 10:41:01 +0100] [12680] [INFO] Booting worker with pid: 12680
+[2019-09-04 10:41:01 +0100] [12683] [INFO] Booting worker with pid: 12683
+[2019-09-04 10:41:01 +0100] [12686] [INFO] Booting worker with pid: 12686
+[2019-09-04 10:41:01 +0100] [12688] [INFO] Booting worker with pid: 12688
+[2019-09-04 10:41:01 +0100] [12690] [INFO] Booting worker with pid: 12690
+[2019-09-04 10:41:01 +0100] [12694] [INFO] Booting worker with pid: 12694
+[2019-09-04 10:41:01 +0100] [12697] [INFO] Booting worker with pid: 12697
+[2019-09-04 10:41:01 +0100] [12698] [INFO] Booting worker with pid: 12698
+[2019-09-04 10:41:01 +0100] [12704] [INFO] Booting worker with pid: 12704
+[2019-09-04 10:44:12 +0100] [12677] [INFO] Handling signal: int
+[2019-09-04 09:44:13 +0000] [12683] [INFO] Worker exiting (pid: 12683)
+[2019-09-04 09:44:13 +0000] [12686] [INFO] Worker exiting (pid: 12686)
+[2019-09-04 09:44:13 +0000] [12704] [INFO] Worker exiting (pid: 12704)
+[2019-09-04 09:44:13 +0000] [12688] [INFO] Worker exiting (pid: 12688)
+[2019-09-04 09:44:13 +0000] [12698] [INFO] Worker exiting (pid: 12698)
+[2019-09-04 09:44:13 +0000] [12697] [INFO] Worker exiting (pid: 12697)
+[2019-09-04 09:44:13 +0000] [12680] [INFO] Worker exiting (pid: 12680)
+[2019-09-04 09:44:13 +0000] [12690] [INFO] Worker exiting (pid: 12690)
+[2019-09-04 09:44:13 +0000] [12694] [INFO] Worker exiting (pid: 12694)
+[2019-09-04 10:44:13 +0100] [12677] [INFO] Shutting down: Master
+[2019-09-04 10:44:42 +0100] [12985] [INFO] Starting gunicorn 19.9.0
+[2019-09-04 10:44:42 +0100] [12985] [INFO] Listening at: unix:/tmp/gunicorn.sock (12985)
+[2019-09-04 10:44:42 +0100] [12985] [INFO] Using worker: sync
+[2019-09-04 10:44:42 +0100] [12989] [INFO] Booting worker with pid: 12989
+[2019-09-04 10:44:42 +0100] [12991] [INFO] Booting worker with pid: 12991
+[2019-09-04 10:44:42 +0100] [12995] [INFO] Booting worker with pid: 12995
+[2019-09-04 10:44:42 +0100] [12997] [INFO] Booting worker with pid: 12997
+[2019-09-04 10:44:42 +0100] [13002] [INFO] Booting worker with pid: 13002
+[2019-09-04 10:44:42 +0100] [13005] [INFO] Booting worker with pid: 13005
+[2019-09-04 10:44:42 +0100] [13007] [INFO] Booting worker with pid: 13007
+[2019-09-04 10:44:42 +0100] [13010] [INFO] Booting worker with pid: 13010
+[2019-09-04 10:44:42 +0100] [13012] [INFO] Booting worker with pid: 13012
+[2019-09-04 12:15:20 +0100] [21381] [INFO] Starting gunicorn 19.9.0
+[2019-09-04 12:15:20 +0100] [21381] [INFO] Listening at: http://127.0.0.1:8001 (21381)
+[2019-09-04 12:15:20 +0100] [21381] [INFO] Using worker: sync
+[2019-09-04 12:15:20 +0100] [21385] [INFO] Booting worker with pid: 21385
+[2019-09-04 12:15:20 +0100] [21388] [INFO] Booting worker with pid: 21388
+[2019-09-04 12:15:20 +0100] [21390] [INFO] Booting worker with pid: 21390
+[2019-09-04 12:15:21 +0100] [21393] [INFO] Booting worker with pid: 21393
+[2019-09-04 12:15:21 +0100] [21397] [INFO] Booting worker with pid: 21397
+[2019-09-04 12:15:21 +0100] [21399] [INFO] Booting worker with pid: 21399
+[2019-09-04 12:15:21 +0100] [21402] [INFO] Booting worker with pid: 21402
+[2019-09-04 12:15:21 +0100] [21404] [INFO] Booting worker with pid: 21404
+[2019-09-04 12:15:21 +0100] [21406] [INFO] Booting worker with pid: 21406
+[2019-09-04 12:33:41 +0100] [21381] [CRITICAL] WORKER TIMEOUT (pid:21406)
+[2019-09-04 11:33:41 +0000] [21406] [INFO] Worker exiting (pid: 21406)
+[2019-09-04 12:33:41 +0100] [22977] [INFO] Booting worker with pid: 22977

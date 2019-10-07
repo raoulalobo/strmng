@@ -1,0 +1,18 @@
+
+{% extends "base.html" %}
+{% load static %}
+
+{% block 'content' %}
+
+<video id='hls-example'  class="video-js vjs-default-skin" width="400" height="300" preload="none" controls>
+  <source type="application/x-mpegURL" src="/media/movies/m3u8/1830.m3u8">
+</video>
+
+{% endblock %}
+
+{% block foot-javascript %}
+  <script>
+    var player = videojs('hls-example');
+    player.play()
+  </script>
+{% endblock %}

@@ -1,0 +1,17 @@
+
+
+.DS_Store
+*.sqlite3
+media/
+*.pyc
+*.db
+*.pid
+# django migrations 
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+# fichiers specifiques au projet
+static/admin/
+static/videos/
+static/folder/
+gunicorn

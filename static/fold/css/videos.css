@@ -1,0 +1,15 @@
+video {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-wrapper {
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .video-wrapper > video {
+    width: 100%;
+  }
